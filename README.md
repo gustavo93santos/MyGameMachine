@@ -3,6 +3,7 @@
 ### Requisitos Funcionais Revisados:
 
 1. **Objetos e Classes:**
+    - **GerenciadorDeJogadores:**  Controla o cadastro, autenticação e gestão dos jogadores do jogo. Gerencia as informações dos jogadores, como nome, histórico de jogadas e pontuação, garantindo a integridade e segurança dos dados.  
     - **Jogador:** Armazena informações como nome, histórico de jogadas (vitórias, derrotas), e pontuação total.
     - **Jogo:** Controla a lógica do jogo, incluindo receber entradas do jogador, gerar jogadas do computador, calcular resultados, e atualizar o histórico e pontuação do jogador.
     - **Histórico:** Representa o registro de todas as jogadas, incluindo escolhas do jogador e do computador, e o resultado de cada partida.
